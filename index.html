@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <div><img src="./images/my photo.jpg" alt="my image"></div>
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        <div class="navbar-link" id="menu">
+                <a href="#home"><li class="list-element">Home</li></a>
+                <a href="#about-us"><li class="list-element">About</li></a>
+                <a href="#education"><li class="list-element">Education</li></a>
+                <a href="#skills-container"><li class="list-element">Skills</li></a>
+                <a href="#services"><li class="list-element">Services</li></a>
+                <a href="#contact"><li class="list-element">Contact</li></a>
+        </div>
+        
+    </header>
+
+    <div class="main" id="home">
+        <section class="images-section">
+            <img src="./images/my photo.jpg" alt="my-image">
+        </section>  
+           
+        <section class="intro-section">
+            <span class="span-1">Hello, I'm</span> <span class="span-2">Dilip Sarkar</span> <span class="span-3">Frontend Developer</span>
+            <p id="dots"></p>
+            <div id="more">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptas quidem cum sapiente eius consequuntur amet earum eveniet dolorum delectus saepe reprehenderit excepturi rem cupiditate fugit qui accusantium maiores, odio sed? Nobis, culpa natus. Dolorem excepturi adipisci, dolores possimus necessitatibus porro alias culpa aliquam amet. Repellendus animi voluptates similique eos!</div>
+            <button onclick="readMore()" id="myBtn">Read more</button>
+           
+            <a href="./images/my photo.jpg"><input type="button" id="btn" value="Download Resume"></a>
+        </section>
+    
+        <section class="social-media-section">
+            <a href="https://www.facebook.com/profile.php?id=100083308916016&mibextid=ZbWKwL"><img src="./images/facebook.png" alt="facebook-link"></a>
+            <a href="https://instagram.com/dip2002sarkar___ssdp?igshid=MzNlNGNkZWQ4Mg=="><img src="./images/instagram.png" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/dilip-sarkar-b92453231/"><img src="./images/linkedin.png" alt="linkedin"></a>
+            <a href="https://github.com/Dilip-2003"><img src="./images/github.png" alt="github"></a>
+        </section>
+
+    </div>
+    <hr>
+
+    <div class="about" id="about-us">
+        <div>
+            <h1>Who am I?</h1>
+            <section class="about-intro">
+                <span class="about-span-1">Hi!! My name is Dilip Sarkar</span>,currently I am pursuing bachelor of technology in Information Technology at Maulana Abul Kalm Azad University of Technology. I am a Web Developer. My interested field are <br><br>
+            </section>
+        </div>
+       <div>
+        <section class="fields">
+            <div class="interest-fields">
+                <img class="img-1" src="./images/web-design.png" alt="web-design">
+                <div class="demo">Web Design</div>
+            </div>
+            <div class="interest-fields">
+                <img class="img-1" src="./images/software.png" alt="software development">
+                <div class="demo">Software Developement</div>
+            </div>
+            <div class="interest-fields">
+                <img class="img-1" src="./images/application.png" alt="application">
+                <div class="demo">Application</div>
+            </div>
+        </section>
+       </div>
+    </div>
+    <hr>
+
+    <div id="education" class="education">
+        <h1>Education Details</h1>
+        <section class="edu-1">
+            <h2>Secondary Education</h2>
+            <p>School Name: Khalishamari Panchanan Smriti Vidyapith</p>
+            <p>Board: West Bengal Board Of Secondary Education</p>
+            <p>Obatain Marks: 580 out of 700</p>
+            <p>Marks in percentages: 84%</p>
+        </section>
+        <section class="edu-1">
+            <h2>Higher Secondary Education</h2>
+            <p>School Name: Mathabhanga High School</p>
+            <p>Board: West Bengal Council of Higher Secondary Education</p>
+            <p>Stream: Science</p>
+            <p>Obatain Marks: 412 out of 500</p>
+            <p>Marks in percentages: 82.25%</p>
+        </section>
+        <section class="edu-1">
+            <h2>Bachelor of Technology</h2>
+            <p>College Name: Maulana Abul Kalam Azad University of Technology</p>
+            <p>University: Maulana Abul Kalam Azad University of Technology</p>
+            <p>Stream: Information Technology</p>
+            <p>Sgpa in first Semester: 9.77 </p>
+            <p>Sgpa in second Semester: 9.23 </p>
+            <p>Cgpa in first year: 9.43</p>
+        </section>
+    </div><hr>
+
+    <h1 class="service-header">My Skills</h1>
+    <div class="skills-container" id="skills-container">
+
+        <!-- <h1>My Skills</h1> -->
+
+        <p>HTML</p>
+        <section class="container">
+            <div class="skills html">90%</div>
+        </section>
+        <p>CSS</p>
+        <section class="container">
+            <div class="skills css">80%</div>
+        </section>
+        <p>JS</p>
+        <section class="container">
+            <div class="skills js">65%</div>
+        </section>
+        <p>DSA</p>
+        <section class="container">
+            <div class="skills dsa">60%</div>
+        </section>
+
+    </div>
+
+    <h1 class="service-header">What I do??</h1>
+    <div class="services" id="services">
+       
+        <section class="serv">
+            <div class="serv-1">
+                <div class="expertise"><i class="fa fa-lightbulb-o light" style="font-size:80px;color:yellow"></i></div>
+            </div>
+            <div>
+                <h1 class="serv-head">Innovative Ideas</h1>
+                <p class="serv-desc">I always try to do something new. So I am trying to think some new things, work with new innovative ideas.</p>
+            </div>
+        </section>
+
+        <section class="serv">
+            <div class="serv-1">
+                <div class="expertise"><img src="./images/web-design.png" alt="web design"></div>
+            </div>
+            <div>
+                <h1 class="serv-head">Web Design</h1>
+                <p class="serv-desc">I am a Web Designer. I have done so many project on web design.You can see them in my github.</p>
+            </div>
+        </section>
+
+        <section class="serv">
+            <div class="serv-1">
+                <div class="expertise"><img src="./images/software.png" alt="Software Development"></div>
+            </div>
+            <div>
+                <h1 class="serv-head">Software </h1>
+                <p class="serv-desc">I am a Software Developer. I have done so many project on Software development.You can see them in my github.</p>
+            </div>
+        </section>
+
+        <section class="serv">
+            <div class="serv-1">
+
+                <div class="expertise"><img src="./images/application.png" alt="Application Development"></div>
+
+            </div>
+            <div>
+                <h1 class="serv-head">Application</h1>
+                <p class="serv-desc">I am a App Developer. I have done so many project on App development.You can see them in my github.</p>
+            </div>
+        </section> 
+        
+    </div>
+
+    <h1>Contact Details</h1>
+    <div class="contact" id="contact">
+
+        <section class="contact-left">
+
+            <div class="details-container">
+                <div class="icon-box"><img src="./images/mail.png" alt="email"></div>
+                <div class="para-box"><a href="mailto:someone@example.com">sarkardip2003sd65@gmail.com</a></div>
+            </div>
+            <div class="details-container">
+                <div class="icon-box loc"><img src="./images/location.png" alt="address"></div>
+                <div class="para-box">Kurshamari Part Two, Baragodaikhora, Sitalkuchi, Coochbehar, West Bengal 736172</div>
+            </div>
+            <div class="details-container">
+                <div class="icon-box loc"><img src="./images/calling-app.png" alt="call-me"></div>
+                <div class="para-box">+91-9064364294</div>
+            </div>
+
+        </section>
+        <section class="contact-right">
+            <input class="inp-box" type="text" placeholder="Name"><br>
+            <input class="inp-box" type="tele" placeholder="contact number"><br>
+            <input class="inp-box" type="email" placeholder="email"><br>
+            <input class="inp-box" type="text" name="message" id="message" placeholder="Subject"><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="write your message"></textarea><br>
+            <input type="button" name="btn" id="inp-btn" value="send message">
+        </section>
+
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
